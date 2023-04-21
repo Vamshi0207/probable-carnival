@@ -1,0 +1,127 @@
+body {
+    color: white;
+    background: black;
+  }
+  #heading {
+    display: flex;
+    /* margin-left:; */
+  }
+  
+  #design-box {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  /* section-1 */
+  main {
+    width: 65%;
+    margin-left: 5%;
+    display: inline-block;
+    overflow: hide;
+  }
+  /* bigbox */
+  #big-box {
+    width: 100%;
+    height: 20vw;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    text-size-adjust: auto;
+  }
+  #big-box img {
+    width: 8rem;
+    height: inherit;
+    border: 1px soild black;
+    position: absolute;
+  }
+  #big-box author {
+    margin: 0rem 0rem 0rem 8rem;
+    position: absolute;
+    height: inherit;
+    overflow: hidden;
+    /* overflow: scroll; */
+    text-size-adjust: auto;
+  }
+  /* playlist */
+  .box-playlist {
+    width: 100%;
+    height: 3vw;
+    margin-top: 12px;
+    display: flex;
+    background-color: blue;
+    font-size: 1rem;
+    position: relative;
+  }
+  .box-playlist img {
+    width: 5rem;
+    height: 2.8vw;
+    /* margin: 1vw 2vw 2vw 1vw; */
+    display: flex;
+    align-items: center;
+    /* border: 1px soild black; */
+  }
+  
+  .box-playlist p {
+    position: absolute;
+    margin: 0vw 0vw 0vw 30%;
+  }
+  .box-playlist i {
+    position: absolute;
+    margin: 0vw 0vw 0vw 60%;
+  }
+  .box-playlist div {
+    position: absolute;
+    margin: 0vw 0vw 0vw 65%;
+  }
+  
+  aside {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin-left: 2%;
+  }
+  #top-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .side-playlist {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    height: 59%;
+    width: 100%;
+    margin-top: 2vh;
+    /* border: 2px soild red; */
+    /* background-color: blue; */
+  }
+  .side-playlist img {
+    height: 5vw;
+    width: 5%;
+    border-top: 20px soild red;
+  }
+  
+  .last-one {
+    /* position:fixed; */
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(63, 58, 58);
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 5%; */
+  }
+  .last-one img {
+    width: 6%;
+    height: 10vh;
+    margin-left: 9%;
+  }
